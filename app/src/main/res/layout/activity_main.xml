@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imgwater"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/bottle" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFootball"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Football" />
+
+    <CheckBox
+        android:id="@+id/checkBoxRugby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rugby" />
+
+    <ToggleButton
+        android:id="@+id/toggleButtonJojo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton" />
+
+    <Switch
+        android:id="@+id/switchLightMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turn on Dark Mode" />
+
+    <RadioGroup
+        android:id="@+id/groupGender"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_marginRight="20dp"
+            android:id="@+id/radiofemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+        <RadioButton
+            android:layout_marginRight="20dp"
+            android:id="@+id/radiomale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:layout_marginRight="20dp"
+            android:id="@+id/radioOther"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other" />
+    </RadioGroup>
+</LinearLayout>
